@@ -29,8 +29,8 @@ Variants {
         implicitWidth: layoutRow.width + 32
         implicitHeight: 40
 
-        property bool isLeftMonitor: modelData.name === "DP-4"
-        property bool isRightMonitor: modelData.name === "DP-5"
+        property bool isLeftMonitor: modelData.name === "DP-5"
+        property bool isRightMonitor: modelData.name === "DP-4"
 
         // Put both toolbars on the bottom
         anchors {
