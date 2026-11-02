@@ -25,6 +25,8 @@ hl.unbind("SUPER + SHIFT + RETURN")
 hl.unbind("SUPER + SHIFT + BACKSPACE")
 o.bind("SUPER + B", nil, "omarchy-launch-browser")
 hl.bind("SUPER + SHIFT + W", hl.dsp.window.kill())
+hl.unbind("SUPER + L")
+o.bind("SUPER + L", nil, "omarchy system lock")
 -- Logitech MX Keys examples:
 -- o.bind("SUPER + SHIFT + S", nil, "omarchy-capture-screenshot")
 -- o.bind("SUPER + H", nil, "voxtype record toggle")
