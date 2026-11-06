@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything
 
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
+export JAVA_HOME="$HOME/.jdks/ms-25.0.4.1"
+export PATH="$JAVA_HOME/bin:$PATH"
 
 [[ $- != *i* ]] && return
 
