@@ -3,8 +3,8 @@ hl.monitor({
     mode     	 = "2560x1440@180",
     position 	 = "1920x0",
     scale    	 = "1",
+    bitdepth	 = 10,
     vrr 	 	 = 0,
-    supports_hdr = 1,
 })
 hl.monitor({
     output   = "DP-5",
@@ -14,3 +14,10 @@ hl.monitor({
     vrr 	 = 0,
 })
 
+
+-- stop hyprland hdr bullshit
+hl.config({
+    render = {
+        cm_auto_hdr = 0,
+    },
+})
